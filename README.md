@@ -1,10 +1,13 @@
-# LUMI AI guide
+# Snellius AI guide
 
-This guide is designed to assist users in migrating their machine learning applications from smaller-scale computing environments to LUMI. We will walk you through a detailed example of training an image classification model using [PyTorch's Vision Transformer (VIT)](https://pytorch.org/vision/main/models/vision_transformer.html) on the [ImageNet dataset](https://www.image-net.org/).
 
-All Python and bash scripts referenced in this guide are accessible in this [GitHub repository](https://github.com/Lumi-supercomputer/LUMI-AI-example/tree/main). We start with a basic python script, [visiontransformer.py](1-quickstart/visiontransformer.py), that could run on your local machine and modify it over the next chapters to run it efficiently on LUMI.
+This Guide is adapted from the excellent [LUMI-AI-Guide](https://github.com/Lumi-supercomputer/LUMI-AI-Guide)
 
-Even though this guide uses PyTorch, most of the covered topics are independent of the used machine learning framework. We therefore believe this guide is helpful for all new ML users on LUMI while also providing a concrete example that runs on LUMI.
+This guide is designed to assist users in migrating their machine learning applications from smaller-scale computing environments to Snellius. We will walk you through a detailed example of training an image classification model using [PyTorch's Vision Transformer (VIT)](https://pytorch.org/vision/main/models/vision_transformer.html) on the [ImageNet dataset](https://www.image-net.org/).
+
+All Python and bash scripts referenced in this guide are accessible in this [GitHub repository](https://github.com/nicorenaud/snellius-ai-guide/tree/main). We start with a basic python script, [visiontransformer.py](1-quickstart/visiontransformer.py), that could run on your local machine and modify it over the next chapters to run it efficiently on Snellius.
+
+Even though this guide uses PyTorch, most of the covered topics are independent of the used machine learning framework. We therefore believe this guide is helpful for all new ML users on Snellius while also providing a concrete example that runs on Snellius.
 
 ### Requirements
 
@@ -18,21 +21,17 @@ Before proceeding, please ensure you meet the following prerequisites:
 
 The guide is structured into the following sections:
 
-- [1. QuickStart](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/1-quickstart#readme)
-- [2. Setting up your own environment](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/2-setting-up-environment#readme)
-- [3. File formats for training data](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/3-file-formats#readme)
-- [4. Data Storage Options](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/4-data-storage#readme)
-- [5. Multi-GPU and Multi-Node Training](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/5-multi-gpu-and-node#readme)
-- [6. Monitoring and Profiling jobs](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/6-monitoring-and-profiling#readme)
-- [7. TensorBoard visualization](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/7-TensorBoard-visualization#readme)
-- [8. MLflow visualization](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/8-MLflow-visualization#readme)
-- [9. Wandb visualization](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/9-Wandb-visualization#readme)
+- [1. QuickStart](1-quickstart/README.md)
+- [2. Setting up your own environment](2-setting-up-environment/README.md)
+- [3. File formats for training data](3-file-formats/README.md)
+- [4. Data Storage Options](4-data-storage/README.md)
+- [5. Multi-GPU and Multi-Node Training](5-multi-gpu-and-node/README.md)
+- [6. Monitoring and Profiling jobs](6-monitoring-and-profiling/README.md)
+- [7. TensorBoard visualization](7-TensorBoard-visualization/README.md)
+- [8. MLflow visualization](8-MLflow-visualization/README.md)
+- [9. Wandb visualization](9-Wandb-visualization/README.md)
   
 ### Further reading
 
-- [LUMI Documentation](https://docs.lumi-supercomputer.eu/)
-- [LUMI AI Factory Services](https://docs.lumi-supercomputer.eu/software/local/lumi-aif/)
-- [LUMI software library, PyTorch](https://lumi-supercomputer.github.io/LUMI-EasyBuild-docs/p/PyTorch/)
-- [LUMI software library, TensorFlow](https://lumi-supercomputer.github.io/LUMI-EasyBuild-docs/t/TensorFlow/)
-- [LUMI software library, Jax](https://lumi-supercomputer.github.io/LUMI-EasyBuild-docs/j/jax/)
-- [Workshop material - Moving your AI training jobs to LUMI](https://lumi-supercomputer.github.io/LUMI-training-materials/ai-20240529/)
+- [Snellius Documentation](https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/30660184/Snellius)
+- [NL AI Factory Services]()
