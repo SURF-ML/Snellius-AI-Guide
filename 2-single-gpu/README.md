@@ -1,9 +1,8 @@
 # 2. First Run on a single GPU
 
-In this first example we are training a vision transformer on the [Tiny ImageNet Dataset](https://paperswithcode.com/dataset/tiny-imagenet) we have just downloaded. Please have a look at the terms of access for the ImageNet Dataset [here](https://www.image-net.org/download.php).
+In this first example we are training a vision transformer on the [Tiny ImageNet Dataset](https://paperswithcode.com/dataset/tiny-imagenet) we have just downloaded. We are here using a single GPU and this example is therefore similar to what you can already run on your laptop (provided it has a GPU). The next chapters will explain how to scale up this training run to use multiple gpus on multiple nodes.
 
 To run the Vision Transformer example, we need to use the provided batch job script [`run.sh`](run.sh) that you can use to run the [`visiontransformer.py`](visiontransformer.py) script on a single GPU.
-
 
 To run the provided script yourself, you first need to edit the script to add your project space:
 
@@ -31,7 +30,7 @@ Accuracy: 21.265%
 ...
 ```
 
-Congratulations! You have run your first training job on Snellius. The next chapters will explain how to scale up this training run to use multiple gpus on multiple nodes.
+Congratulations! You have run your first training job on Snellius. 
 
  ### Table of contents
 

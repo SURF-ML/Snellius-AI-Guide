@@ -11,3 +11,5 @@ As before, don't forget to edit the job file with the path of your project space
 ```bash
 export PROJECT_SPACE=/projects/0/prjsXXXX
 ```
+
+Please have a look at the terms of access for the ImageNet Dataset [here](https://www.image-net.org/download.php).
